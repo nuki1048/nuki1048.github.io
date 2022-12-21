@@ -1,0 +1,172 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_btn
+            font-size: 13px
+    .promo
+        &_tittle
+            font-size: 50px
+        &_subtittle
+            font-size: 35px
+    .reasons
+        &_descrip
+            width: 300px
+        .item_wrapper
+            align-items: flex-start
+    .mobile_app
+        &_item
+            width: 250px
+            &_text
+                font-size: 20px
+    .choice
+        &_img
+            padding: 0
+    .footer
+        .about_links
+            padding: 0 10px 0 10px
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 8px
+        &_btn
+            font-size: 10px
+    .subheader
+        &_logo
+            width: 100%
+            &_descrip
+                font-size: 11px
+        .phone-number
+            font-size: 19px
+        .header-btn
+            width: 100%
+            font-size: 15px
+    .promo
+        &_tittle
+            font-size: 40px
+        &_subtittle
+            font-size: 25px
+    .reasons
+        .item_wrapper
+            flex-direction: column
+            align-items: center
+        &_text_1
+            margin-top: 10px
+        &_text_2
+            font-size: 13px
+    .mobile_app
+        &_item
+            width: 230px
+        &_subtittle
+            font-size: 14px
+        .row
+            padding: 0
+    .footer
+        .about_links
+            margin: 0
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        right: 0
+        left: -200%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0,.8)
+        transition: 0.5s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+        &_btn
+            font-size: 20px
+
+    .choice
+        &_img
+            width: 100%
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 20px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #FFFFFF
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .subheader
+        .numbers
+            display: none
+        .number
+            display: block
+            font-size: 18px
+            text-decoration: none
+            font-weight: 400
+            font-size: 12px
+            color: #FFFFFF
+            text-align: center
+        .header-btn
+            width: 200px
+            height: 40px
+            text-align: center
+            margin: 0 auto
+    .promo
+        &_tittle
+            font-size: 30px
+        &_subtittle
+            font-size: 18px
+    .reasons
+        .col-md-6
+            padding: 30px 0 0 0
+    .mobile_app
+        .col-md-4
+            display: flex
+            justify-content: center
+    .footer
+        .footer_wrapper
+            justify-content: space-around
+@media (max-width: 575px)
+    .subheader
+        .header-btn
+            display: block
+            width: 110px
+            height: 20px
+            line-height: 0
+            font-size: 10px
+            margin: 0 auto
+        .logo
+            margin-top: 20px
+        &_logo_descrip
+            display: none
+    .promo_subtittle
+        line-height: 42px
+    .footer
+        .about_links
+            line-height: 41px
+            font-size: 11px
+    .menu
+        &_item
+            width: 100%
+            padding: 10px 0
+            text-align: center
+            font-size: 16px
