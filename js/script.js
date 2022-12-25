@@ -17,7 +17,7 @@ counters.forEach((item, i) => {
 
 $(document).ready(function(){
     $(window).scroll(function(){
-        if ($(this).scrollTop()> 1200){
+        if ($(this).scrollTop()> 1000){
             $('.pageup').fadeIn();
         } else {
             $('.pageup').fadeOut();
