@@ -6,3 +6,5 @@ In this project I used HTML, SASS, SCSS, GULP AND JS.
 I used HTML, SCSS and SASS for visuals and markup, as well as for libraries (boostrap -reboot)✨✨.
 GULP was used to compress images and to convert scss sass into one file⚠️. 
 JS is here only for the hamburger menu⚠️.
+
+In this project, there are also links to my works that were done independently/according to the course. Links are in the portfolio section
